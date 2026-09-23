@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アプリ開発案内資料</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- FontAwesome (アイコン用) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ヘッダー (ここに header.html が読み込まれる) -->
+  <header class="site-header" id="common-header"></header>
+
+  <!-- メインコンテンツ領域 -->
+  <div class="container">
+    
+    <!-- 左側：メインエリア -->
+    <main class="main-content">
+
+      <!-- 記事本体カード -->
+      <article class="card-section post-detail">
+        
+        <!-- 記事ヘッダー -->
+        <header class="post-header">
+          <h1 class="post-title">アプリ開発案内資料</h1>
+          <span class="accent-line"></span>
+          <div class="post-meta">
+            
+            <!-- カテゴリー付け　movie graphic others どれか -->
+            <span class="category-badge">graphic</span>
+            <time class="date">2026</time>
+          </div>
+        </header>
+
+        <!-- アイキャッチ画像 -->
+        <div class="post-eyecatch">
+          <img src="/img/parts/Mix_Order Software design_A.png" alt="アイキャッチ画像">
+        </div>
+
+        <!-- 記事本文 -->
+        <div class="post-body">
+          <h3>資料</h3>
+          <p>
+            アプリ開発の案内資料を作成
+          </p>
+          <h3>使用ソフト</h3>
+          <p>
+            PowerPoint Photoshop Gemini（画像生成）
+          </p>
+          <h3>制作期間</h3>
+          <p>
+            8日
+          </p>
+          <h3>内容</h3>          
+          <p>
+            新規顧客を獲得するために、営業配布用のチラシを作成。関係者と内容を詰めながら、パワーポイントベースに画像などの素材は
+            Geminiで作成。イラストのトンマナを揃え、課題や解決策をBefor/Afterで見せるなどの工夫し作成。
+          </p>
+        </div>
+
+      </article>
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumb">
+        <a href="/index.html">ホーム</a> <i class="fa-solid fa-chevron-right"></i>
+        <a href="/index.html#graphic">graphic</a> <i class="fa-solid fa-chevron-right"></i>
+        <span>アプリ開発案内資料</span>
+      </nav>
+
+      <!-- 関連記事 -->
+      <section class="card-section">
+        <div class="section-title">
+          <h2>more graphics...</h2>
+          <span class="accent-line"></span>
+        </div>
+
+        <div class="article-grid">
+          <!-- JavaScriptで自動挿入するため、div（クラス名）のみ記述！ -->
+        </div>
+      </section>
+
+    </main>
+
+<!-- サイドバー (ここに sidebar.html が読み込まれる) -->
+    <aside class="sidebar" id="common-sidebar"></aside>
+  </div>
+
+<!-- フッター (ここに footer.html が読み込まれる) -->
+  <footer class="site-footer" id="common-footer"></footer>
+
+  <!-- 外部JavaScriptファイルの読み込み -->
+  <script src="/js/script.js"></script>
+
+</body>
+</html>

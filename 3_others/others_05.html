@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>企業サイトのリニューアル</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- FontAwesome (アイコン用) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ヘッダー (ここに header.html が読み込まれる) -->
+  <header class="site-header" id="common-header"></header>
+
+  <!-- メインコンテンツ領域 -->
+  <div class="container">
+    
+    <!-- 左側：メインエリア -->
+    <main class="main-content">
+
+      <!-- 記事本体カード -->
+      <article class="card-section post-detail">
+        
+        <!-- 記事ヘッダー -->
+        <header class="post-header">
+          <h1 class="post-title">企業サイトのリニューアル</h1>
+          <span class="accent-line"></span>
+          <div class="post-meta">
+            
+            <!-- カテゴリー付け　movie graphic others どれか -->
+            <span class="category-badge">others</span>
+            <time class="date">2023</time>
+          </div>
+        </header>
+
+        <!-- アイキャッチ画像 -->
+        <div class="post-eyecatch">
+          <img src="/img/parts/works_lp_03.png" alt="アイキャッチ画像">
+        </div>
+
+        <!-- 記事本文 -->
+        <div class="post-body">
+          <h3>サイト制作</h3>
+          <p>
+            企業サイトのリニューアル
+          </p>
+          <h3>使用ソフト</h3>
+          <p>
+            PowerPoint Photoshop ferret One(マーケティングツール)
+          </p>
+          <h3>制作期間</h3>
+          <p>
+            3ヵ月
+          </p>
+          <h3>内容</h3>          
+          <p>
+            「ferret One」というマーケティングツールを利用して、 ノーコードでコーポレートサイトをリニューアル。
+            目的は大きく2つあり、1つめは前任担当者の離職により、入社時から 更新が止まっていたので、サイトの運営を再開させること。
+            2つめは、コーポレートサイトからの流入、新規顧客を獲得する導線を作ることでした。 
+            自分を含めたマーケティング部の立ち上げメンバー2名で、企画・構成を行い、 デザイン、レイアウトなど、主担当で対応しました。
+            他のLP同様に、制作当時は、 Web・LP制作の経験もなく、デザインカンプのことも知らず、構成を考えた上で 他社サイトも参考にしつつ制作。
+            サイトへの流入を増やすために、 新たにコラムページを新設。現場へのヒアリング、ネット検索や経営の参考書などから、 
+            興味を持っていただけるようなコラム作りを心がけ取り組みました。
+          </p>
+        </div>
+
+      </article>
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumb">
+        <a href="/index.html">ホーム</a> <i class="fa-solid fa-chevron-right"></i>
+        <a href="/index.html#others">others</a> <i class="fa-solid fa-chevron-right"></i>
+        <span>企業サイトのリニューアル</span>
+      </nav>
+
+      <!-- 関連記事 -->
+      <section class="card-section">
+        <div class="section-title">
+          <h2>more others...</h2>
+          <span class="accent-line"></span>
+        </div>
+
+        <div class="article-grid">
+          <!-- JavaScriptで自動挿入するため、div（クラス名）のみ記述！ -->
+        </div>
+      </section>
+
+    </main>
+
+<!-- サイドバー (ここに sidebar.html が読み込まれる) -->
+    <aside class="sidebar" id="common-sidebar"></aside>
+  </div>
+
+<!-- フッター (ここに footer.html が読み込まれる) -->
+  <footer class="site-footer" id="common-footer"></footer>
+
+  <!-- 外部JavaScriptファイルの読み込み -->
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
