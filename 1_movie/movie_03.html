@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>産業医の紹介動画</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- FontAwesome (アイコン用) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ヘッダー (ここに header.html が読み込まれる) -->
+  <header class="site-header" id="common-header"></header>
+
+  <!-- メインコンテンツ領域 -->
+  <div class="container">
+    
+    <!-- 左側：メインエリア -->
+    <main class="main-content">
+
+      <!-- 記事本体カード -->
+      <article class="card-section post-detail">
+        
+        <!-- 記事ヘッダー -->
+        <header class="post-header">
+          <h1 class="post-title">産業医の紹介動画</h1>
+          <span class="accent-line"></span>
+          <div class="post-meta">
+            
+            <!-- カテゴリー付け　movie graphic others どれか -->
+            <span class="category-badge">movie</span>
+            <time class="date">2026/05</time>
+          </div>
+        </header>
+
+        <!-- YouTube動画埋め込み (16:9レスポンシブ表示) -->
+        <div class="post-eyecatch post-video">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- 記事本文 -->
+        <div class="post-body">
+          <h3>映像</h3>
+          <p>
+            産業医の紹介動画
+          </p>
+          <h3>使用ソフト</h3>
+          <p>
+            AfterEffects Premiere illustrator Photoshop Gemini VOICEVOX
+          </p>
+          <h3>制作期間</h3>
+          <p>
+            3週間
+          </p>
+          <h3>内容</h3>          
+          <p>
+            産業医制度の認知度UPと相談のハードルを下げて、活用を推進することを目的に動画を制作。
+            Geminiで企画案の壁打ちをはじめ、アイコン素材なども作成。
+            また、過去の経験を活かしインタビューからインサート撮影、編集までワンオペレーションで対応。
+          </p>
+        </div>
+
+      </article>
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumb">
+        <a href="/index.html">ホーム</a> <i class="fa-solid fa-chevron-right"></i>
+        <a href="/index.html#movie">movie</a> <i class="fa-solid fa-chevron-right"></i>
+        <span>産業医の紹介動画</span>
+      </nav>
+
+      <!-- 関連記事 -->
+      <section class="card-section">
+        <div class="section-title">
+          <h2>more movies...</h2>
+          <span class="accent-line"></span>
+        </div>
+
+        <div class="article-grid">
+          <!-- JavaScriptで自動挿入するため、div（クラス名）のみ記述！ -->
+        </div>
+      </section>
+
+    </main>
+
+<!-- サイドバー (ここに sidebar.html が読み込まれる) -->
+    <aside class="sidebar" id="common-sidebar"></aside>
+  </div>
+
+<!-- フッター (ここに footer.html が読み込まれる) -->
+  <footer class="site-footer" id="common-footer"></footer>
+
+  <!-- 外部JavaScriptファイルの読み込み -->
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
